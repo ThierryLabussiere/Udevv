@@ -3,8 +3,8 @@ public class Somme {
 		int x = 0;
 		int y = 0;
 		int Somme= x + y;
-		Affiche(Somme);
 		Affiche(Soustraction);
+    Affiche(Somme);	
 		Affiche(Multiplication);
 		}
 	
@@ -14,13 +14,12 @@ public class Somme {
 	public static int Multiplication (int x, int y) {
 		int c = x*y;
 		return c;
-}
+public static int Soustraction (int x, int y) {
+		int c = x-y;
+		return c;}
 	public static int Somme (int x, int y) {
 		int c = x+y;
 		return c;
-}}
-	public static int Soustraction (int x, int y) {
-		int c = x-y;
-		return c;
 }
+  }
 
