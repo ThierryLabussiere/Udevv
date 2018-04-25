@@ -3,7 +3,7 @@ public class Somme {
 		int x = 0;
 		int y = 0;
 		int Somme= x + y;
-		Affiche(Sommme);
+		Affiche(Somme);
 		Affiche(Soustraction);
 		Affiche(Multiplication);
 		}
